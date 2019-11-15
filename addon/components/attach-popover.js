@@ -163,7 +163,7 @@ export default Component.extend({
 
             // Prevent jank by making the attachment invisible until positioned.
             // The visibility style will be toggled by this._startShowAnimation()
-            this._popperElement.style.visibility = isVisible ? 'hidden' : '';
+            // this._popperElement.style.visibility = isVisible ? 'hidden' : '';
 
             if (onChange) {
               onChange(isVisible);
@@ -176,7 +176,7 @@ export default Component.extend({
 
       // Prevent jank by making the attachment invisible until positioned.
       // The visibility style will be toggled by this._startShowAnimation()
-      this._popperElement.style.visibility = isVisible ? 'hidden' : '';
+      // this._popperElement.style.visibility = isVisible ? 'hidden' : '';
 
       if (onChange) {
         onChange(isVisible);
